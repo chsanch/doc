@@ -26,9 +26,9 @@ directory, and the C<doc/Language/> and C<doc/Type/> sub-directories.
 These files are processed as collections of definitions or
 "documentables", which are then post-processed and linked together.
 
-=head1 Generating HTML from Pod
+=head1 Generating HTML from Perl 6 Pod
 
-To generate HTML from the Pod files, you'll need:
+To generate HTML from the Perl 6 Pod files, you'll need:
 
 =item A recent version of the Rakudo Perl 6 compiler
 
@@ -64,7 +64,7 @@ For full details about the Perl 6 Pod specification, see L<Synopsis 26, Documen
 
 =head2 Adding definitions
 
-Documentables can be defined using an C<=headN> Pod directive, where
+Documentables can be defined using a C<=headN> Perl 6 Pod directive, where
 C<N> is greater than zero (e.g., C<=head1>, C<=head2>, …).
 
 All of the paragraphs and blocks following that directive, up until the

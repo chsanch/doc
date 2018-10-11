@@ -619,8 +619,8 @@ C<Test>.
 To document your modules, use L<Perl 6 Pod |https://design.perl6.org/S26.html>
 markup inside your modules. Module documentation is most appreciated and will be
 especially important once  the Perl 6 module directory (or some other site)
-begins rendering Pod docs as HTML for easy browsing. If you have extra docs (in
-addition to the  Pod docs in your module(s)), create a C<doc> directory for
+begins rendering Perl 6 Pod docs as HTML for easy browsing. If you have extra docs (in
+addition to the  Perl 6 Pod docs in your module(s)), create a C<doc> directory for
 them. Follow  the same folder structure as the C<lib> directory like so:
 
 =begin code :lang<text>

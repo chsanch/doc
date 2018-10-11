@@ -196,7 +196,7 @@ only depends on the C<$>.
      <      Index into match object (not really a variable)
      ^      Self-declared formal positional parameter
      :      Self-declared formal named parameter
-     =      Pod variables
+     =      Perl 6 Pod variables
      ~      The sublanguage seen by the parser at this lexical spot
 
 =end table
